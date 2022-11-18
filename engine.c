@@ -77,6 +77,7 @@ char **identify_string(char *parameter)
 	int i = 0;
 	char *delim = " \t\n";
 
+
 	split = strtok(parameter, delim);
 
 	while (split != NULL)
