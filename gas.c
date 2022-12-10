@@ -42,6 +42,6 @@ char *find_command(char *command)
 					perror("Error");
 				}}}}
 		environ++;
-	}
+
 	return ("Error: Not Found");
 }
