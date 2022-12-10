@@ -11,7 +11,7 @@ int main(int ac, char **av)
 	(void)av;
 	(void)ac;
 
-	ignal(SIGINT, controlC);
+	signal(SIGINT, controlC);
 	prompt();
 	return (0);
 }
